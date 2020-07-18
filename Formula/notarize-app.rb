@@ -1,8 +1,8 @@
 class NotarizeApp < Formula
   desc "Make and notarise a .app or .dmg outside of Xcode"
   homepage "https://github.com/EddieCameron/notarize-app"
-  url "https://github.com/EddieCameron/notarize-app/releases/download/1.0.1/notarize-app-homebrew-1.0.1.tar.gz"
-  sha256 "d3970beed852a41fe0df4b748be5eaf2810a539e72417fe5eea0c184b0524d33"
+  url "https://github.com/EddieCameron/notarize-app/releases/download/1.0.2/notarize-app-homebrew-1.0.2.tar.gz"
+  sha256 "9dd11038cf46e971bd07cd316519faf8a372f5e48ee25c9bd52c440c910c261a"
 
   depends_on "create-dmg"
 
