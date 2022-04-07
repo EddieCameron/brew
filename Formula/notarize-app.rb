@@ -6,8 +6,6 @@ class NotarizeApp < Formula
 
   depends_on "create-dmg"
 
-  bottle :unneeded
-
   def install
     system "make", "install-homebrew", "prefix=#{prefix}"
   end
